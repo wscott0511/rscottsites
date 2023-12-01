@@ -1,0 +1,19 @@
+.navBar {
+    width: 100%;
+}
+
+.right {
+    display: inline;
+    float: right;
+}
+
+.left {
+    display: inline;
+    float: left;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

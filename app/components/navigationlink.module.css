@@ -1,0 +1,17 @@
+.navItem {
+    float: left;
+    list-style: none;
+}
+
+.navItem .navLink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.navItem .navLink:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
