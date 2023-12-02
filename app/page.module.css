@@ -6,6 +6,25 @@
   min-height: 50vh;
 }
 
+.header {
+  padding-bottom: 2rem;
+}
+
+.title {
+  padding-bottom: 0.5rem;
+}
+
+.title .titleLink:hover {
+  text-decoration: underline;
+}
+
+.description {
+  padding-left: 0.75rem;
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+  width: 50%;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   
