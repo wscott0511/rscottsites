@@ -5,6 +5,39 @@
     padding: 4rem;
     min-height: 50vh;
   }
+
+  .contactDiv {
+    display: flex;
+    height: 50vh;
+  }
+
+  .contactForm {
+    margin: 0 auto;
+    align-self: center;
+    width: 50%;
+  }
+
+  .formGroup {
+    padding-bottom: 1rem;
+  }
+
+  .formLabel {
+    padding-bottom: 0.5rem;
+  }
+
+  .formGroup input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  .radioGroup {
+    padding-bottom: 0.5rem;
+  }
+
+  .radioLabel {
+    padding-left: 1rem;
+  }
   
   /* Enable hover only on non-touch devices */
   @media (hover: hover) and (pointer: fine) {

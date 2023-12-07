@@ -10,14 +10,24 @@ export default function Home() {
         <Navbar />
       </div>
       <div className={styles.body}>
-        <h1 className={styles.title}><Link href={'/about'} className={styles.titleLink}>Ryan Scott</Link></h1>
-        {/* Add an image of me later */}
-        {/* <Image className={styles.authorImage} src="/images/ryan.jpg" alt="Ryan Scott" width={200} height={200} /> */}
-        <p>My image will go here later</p>
-        <h1 className={styles.title}>Software Engineer</h1>
-        <p className={styles.description}>As a software engineer I am experienced in React and Next.js. I have extense experience in cypress and seleinum testing. I excel in user experience and making sure that websites work great and everyones experience is nice and smooth.</p>
-        <h1 className={styles.title}><Link href={'/whyaccessibility'} className={styles.titleLink}>Accessibility Engineer</Link></h1>
-        <p className={styles.description}>As an accessibility engineer I am experienced in making sure that websites are accessible to everyone. I work in solving accessibility issue for all different types of disabilities whether it be visual, cognitive, or other impairments. </p>
+        <h1 className={styles.title}>Ryan Scott</h1>
+        <p className={styles.description}><Link className={styles.learnMore}href={'/about'}>Learn more about me</Link></p>
+        
+        <h2 className={styles.title}>Services</h2>
+        <ul className={styles.serviceList}>
+          <li className={styles.serviceItem}>
+            <h3><Link className={styles.learnMore} href={'/services'}>Web Developement</Link></h3>
+            <ul className={styles.sublist}>
+              <li>I will create a beautiful and accessible website for you.</li>
+            </ul>
+          </li>
+          <li className={styles.serviceItem}>
+            <h3><Link className={styles.learnMore} href={'/services'}>Accessibility Consulting</Link></h3>
+            <ul className={styles.sublist}>
+              <li>I will test your current website for accessibility compliance based off of <a className={styles.learnMore} href='https://www.w3.org/TR/WCAG22/'>WCAG 2.2</a> accessibility standards.</li>
+            </ul>
+            </li>
+        </ul>
       </div>
     </main>
   )

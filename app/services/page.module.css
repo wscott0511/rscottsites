@@ -1,0 +1,82 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  min-height: 50vh;
+}
+  
+.header {
+  padding-bottom: 2rem;
+}
+  
+.title {
+  padding-bottom: 0.75rem;
+}
+  
+.subtitle {
+  padding-bottom: 0.5rem;
+}
+  
+.list {
+  padding-top: 0.25rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1.0rem;
+}
+
+.serviceList .serviceItem {
+  list-style: none;
+  display: block;
+  float: left;
+  padding-left: 1.5rem;
+}
+
+.contactLink {
+  font-weight: bold;
+  color: #2499A9;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1.0rem;
+}
+  
+  /* Enable hover only on non-touch devices */
+  @media (hover: hover) and (pointer: fine) {
+    
+  }
+  
+  @media (prefers-reduced-motion) {
+    
+  }
+  
+  /* Mobile */
+  @media (max-width: 700px) {
+    .content {
+      padding: 4rem;
+    }
+  }
+  
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 701px) and (max-width: 1120px) {
+    
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  

@@ -18,11 +18,35 @@
   text-decoration: underline;
 }
 
+.learnMore {
+  font-weight: bold;
+  color: #2499A9;
+}
+
+.learnMore:hover {
+  text-decoration: underline;
+}
+
 .description {
   padding-left: 0.75rem;
   padding-bottom: 1rem;
   font-size: 1.25rem;
   width: 50%;
+}
+
+.serviceList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.serviceList li {
+  padding-bottom: 0.5rem;
+}
+
+.sublist {
+  list-style-type: none;
+  padding-top: 0.25rem;
+  padding-left: 1.5rem;
 }
 
 /* Enable hover only on non-touch devices */

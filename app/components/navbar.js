@@ -14,6 +14,7 @@ export default function Navbar() {
                 <ul className={Styles.nav}>
                     <NavLink href="/" children="Home" />
                     <NavLink href="/about" children="About" />
+                    <NavLink href="/services" children="Services" />
                     <NavLink href="/whyaccessibility" children="Why Accesssibility" />
                     <NavLink href="/contact" children="Contact" />
                 </ul>
